@@ -2,6 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 from typing import Optional
 import os
 import logging
+import certifi 
 
 logger = logging.getLogger(__name__)
 
